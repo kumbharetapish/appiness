@@ -1,0 +1,72 @@
+.footerWrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #567086;
+  flex-direction: column;
+  position: relative;
+  bottom: 0px;
+}
+
+.footerWrapper .heading {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #567086;
+  flex-direction: column;
+}
+
+.footerWrapper .heading > h2 {
+  font-size: 15px;
+  color: rgb(146, 161, 170);
+  font-weight: 200;
+  margin: 0;
+}
+
+.footerWrapper .heading > p {
+  font-size: 13px;
+  color: antiquewhite;
+  margin: 0px;
+}
+.footerWrapper .LinkWrapper {
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footerWrapper .LinkWrapper a {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  justify-items: center;
+  color: rgb(189, 189, 189);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.footerWrapper .LinkWrapper a:hover {
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 801px) and (-webkit-min-device-pixel-ratio: 1) {
+  .footerWrapper .heading {
+    width: 40%;
+  }
+
+  .footerWrapper .LinkWrapper {
+    width: 40%;
+  }
+}

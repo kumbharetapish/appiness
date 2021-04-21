@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Inter|Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+  font-size: 12px;
+  background-color: #4e657a;
+  font-family: "Roboto", "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+  color: #0066aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0066aa;
+  text-decoration: none;
+}
+
+a:active {
+  color: #e7ae31;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #f0ae20;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 13px;
+}
+
+b {
+  font-size: 110%;
+}
+
+em {
+  color: red;
+}
+h1 {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #44586b;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #697e92;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
